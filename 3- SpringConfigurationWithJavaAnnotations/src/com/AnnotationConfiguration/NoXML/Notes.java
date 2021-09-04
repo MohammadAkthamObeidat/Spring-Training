@@ -46,6 +46,7 @@ public class Notes {
      *      # NO COMPONENT SCAN used here, so we're going to define each bean individually in this config file
      *      @Configuration
      *      public class SportConfig{
+     *          // Please note that here the method name will be the beanID in the spring context.
      *          @Bean
      *          public Coach swimCoach(){
      *              SwimCoach mySwimCoach = new SwimCoach();
